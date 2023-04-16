@@ -1,0 +1,45 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: TRISTA_XU
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableEmoji: true
+
+# params:
+#   homeInfoParams:
+#     Title: Hi Visitor!
+#     Content: Let's get to know little more about Trista Xu # optional default will be site title
+#   ShowBreadCrumbs: true
+#   ShowPostNavLinks: true
+
+params:
+  profileMode:
+    enabled: true
+    title: Hi Vistors!  # optional default will be site title
+    subtitle: Here are many things about Trista Xu...
+    imageUrl: https://notion-avatar.vercel.app/api/img/eyJmYWNlIjoxLCJub3NlIjowLCJtb3V0aCI6MTAsImV5ZXMiOjMsImV5ZWJyb3dzIjoxMywiZ2xhc3NlcyI6MCwiaGFpciI6NTQsImFjY2Vzc29yaWVzIjo1LCJkZXRhaWxzIjoyLCJiZWFyZCI6MCwiZmxpcCI6MCwiY29sb3IiOiIjZmFhZDE0Iiwic2hhcGUiOiJjaXJjbGUifQ==
+    imageTitle: "Trista" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+
+  socialIcons:
+    - name: linkedin
+      url: https://www.linkedin.com/in/tristaxu01
+    - name: gitHub
+      url: https://github.com/tristaxu01
+menu:
+  main:
+    - identifier: about
+      name: About Me
+      url: /about/
+      weight: 10
+    - identifier: Experience
+      name: Experience
+      url: /archives/
+      weight: 50
+    - identifier: projects
+      name: Projects
+      url: /project/
+      weight: 30
+
